@@ -2,5 +2,6 @@ services:
   - type: web
     name: linebot-app
     env: python
+    rootDir: .
     buildCommand: pip install -r requirements.txt
     startCommand: python app2.py
